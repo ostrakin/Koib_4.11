@@ -1,0 +1,7 @@
+# Данные и артефакты
+data/artifacts/*
+!data/artifacts/.gitkeep
+
+# Сгенерированные индексы
+output/
+!output/.gitkeep
