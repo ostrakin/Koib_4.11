@@ -1,0 +1,14 @@
+KOIB RAG v4.11.0 VK-ready — test report
+
+Checks executed:
+
+1. python3 -m compileall -q .
+   Result: OK
+
+2. pytest -q
+   Result: 63 passed
+
+Notes:
+- Tests validate existing RAG utility modules plus new VK bot helpers and procedural reminder logic.
+- Real calls to VK API and GigaChat were not executed: they require production tokens and network access.
+- Runtime RAG quality depends on the indexed contents of ./output and the configured GigaChat credentials.

@@ -1,0 +1,30 @@
+# KOIB RAG v4.11.0 — CPU/VPS friendly requirements
+# Рекомендуется сначала поставить CPU-only PyTorch:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+# pip install -r requirements.txt
+
+PyMuPDF>=1.23.8
+python-docx>=1.1.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+pymorphy2>=0.9.1
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+langchain-core>=0.1.0
+langchain-community>=0.0.30
+langchain-huggingface>=0.0.1
+langchain-openai>=0.0.5
+openai>=1.0.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+onnxruntime>=1.16.0
+
+fastapi>=0.103.0
+uvicorn[standard]>=0.23.2
+aiohttp>=3.9.0
+pydantic>=2.0.0
+
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
